@@ -1,0 +1,52 @@
+// header
+header {
+
+	display: flex;
+	flex-direction: row;
+
+}
+
+#logo {
+
+	display: inline;
+
+}
+
+#banner1 {
+	display: inline;
+	width: 80em;
+	max-width: 800px;
+	object-fit: contain;
+}
+
+.navbarBg {
+
+	background-image: url(img/main-menu-background.png);
+	background-repeat: no-repeat;
+}
+nav {
+
+	font-weight: 400;
+	font-size: 2em;
+	text-align: center;
+	background-image: url(../img/main-menu-background.png);
+	background-repeat: no-repeat;
+	background-image: none;
+
+	ul{
+
+		padding-top: 1em;
+
+		li{
+
+			padding: 1em 0;
+			text-decoration: none;
+
+				a {
+
+					color: #133959;
+					text-decoration: none;
+			}
+		}
+	}
+}
